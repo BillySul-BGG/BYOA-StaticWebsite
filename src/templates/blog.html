@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <a href="/" class="logo">
+                <img src="/images/logo.png" alt="Site Logo">
+            </a>
+            <nav>
+                <a href="/">Home</a>
+                <a href="/blog">Blog</a>
+                <a href="/about">About</a>
+                <a href="/faq">FAQ</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <article class="blog-post">
+                <header class="blog-header">
+                    <h1>{{title}}</h1>
+                    <div class="blog-meta">
+                        <time datetime="{{date}}">{{date}}</time>
+                    </div>
+                </header>
+                <div class="blog-content">
+                    {{content}}
+                </div>
+                <div class="convertkit-form">
+                    {{> convertkit}}
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="/js/main.js"></script>
+</body>
+</html> 

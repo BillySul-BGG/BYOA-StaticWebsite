@@ -1,6 +1,6 @@
-# Welcome to My Website
+# About
 
-This is a simple, modern website built with HTML, CSS, and JavaScript. It uses Markdown for content management and a simple build process to generate static HTML pages.
+This is a page to explain who I am and what I do.
 
 ## Latest Blog Posts
 
